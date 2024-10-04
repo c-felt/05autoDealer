@@ -1,0 +1,34 @@
+/* NAVIGATION STUFF GOES HERE  */
+#primaryNav button {
+    display: none;
+}
+header {
+    grid-template-columns: 50px auto auto;
+    display: grid;
+    align-items: center;
+}
+#primaryNav ul, #primaryNav ul.open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: static;
+    border: none;
+    box-shadow: none;
+    li a {
+        padding: .4rem 1rem;
+    }
+    a:hover {
+        transform: translateY(5px);
+        transition: transform .20s ease-in-out;
+    }
+}
+#logo {
+    display: block;
+    padding-top: 25px;
+    margin: 0 auto;
+}
+@for $i from 1 through 12 {
+    $width: calc($i/ 12) * 100%;
+    .medium-#{$i} {flex-basis: $width;}
+}
