@@ -404,6 +404,55 @@ header {
   margin: 0;
 }
 
+/* --------------------------- HERO IMAGE --------------------------- */
+.carHero {
+  position: relative;
+}
+.carHero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.carHero .one {
+  position: absolute;
+  top: 40%;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0;
+  color: white;
+  width: 60%;
+  left: 20%;
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.carHero .two {
+  position: absolute;
+  top: 60%;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0;
+  color: white;
+  width: 60%;
+  left: 20%;
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.carHero .three {
+  position: absolute;
+  top: 80%;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0;
+  color: white;
+  width: 60%;
+  left: 20%;
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
 /* --------------------------- MAIN --------------------------- */
 main h1 {
   padding: 1rem 10px 1rem 10px;
@@ -641,8 +690,11 @@ footer a {
 }
 @media only screen and (min-width: 64rem) {
   header, nav, main {
-    max-width: 960px;
+    max-width: 1200px;
     margin: auto;
+  }
+  main h1 {
+    max-width: auto;
   }
   /* CSS for loop */
   .large-1 {

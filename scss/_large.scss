@@ -1,7 +1,10 @@
 header, nav, main {
-    max-width: 960px;
+    max-width: 1200px;
     margin: auto;
 }
+// main h1 {
+//     max-width: auto;
+// }
 
 /* CSS for loop */
 @for $i from 1 through 12 {
