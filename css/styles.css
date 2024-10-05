@@ -693,9 +693,6 @@ footer a {
     max-width: 1200px;
     margin: auto;
   }
-  main h1 {
-    max-width: auto;
-  }
   /* CSS for loop */
   .large-1 {
     flex-basis: 8.3333333333%;
