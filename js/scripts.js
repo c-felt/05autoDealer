@@ -22,8 +22,18 @@ for (let x = 0; x < reviews.length; x++) {
     const myReview = document.createElement('p')
     myReview.textContent = reviews[x].text
 
+const myRatings = document.createElement('div')
+
+for (let step = 0; step<reviews[x].stars; step++) {
+    const starIndicator = document.createElement('img')
+    starIndicator.src = "../images/starGraphic.svg"
+    myRatings.appendChild(starIndicator)
+}
+
+
     //build the figure with child elements
     mySection.appendChild(myName);
+    mySection.appendChild(myRatings)
     mySection.appendChild(myReview);
 
     //Add a new card to the page

@@ -163,16 +163,18 @@ main {
     h3 {
         text-align: center;
         font-weight: $lightWeight;
-        padding: 0;
+        padding: 10px 0 0 0;
         margin: 0;
+        color: white;
+        font-weight: $normalWeight;
     }
     p {
         padding: .5rem $gutter;
         color: $whiteColor;
         line-height: $leading;
     }
-}// end main
-/* --------------------------- Button Stuff --------------------------- */
+}
+/* --------------------------- Car Button Stuff --------------------------- */
 #primaryNav button.open::before {
     content: "\2715";
 }
@@ -198,6 +200,46 @@ main {
 main img {
     width: 100%;
     height: auto;
+}
+.secondHero {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.featuredText{
+    h2 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+}
+/* --------------------------- Review Wrapper --------------------------- */
+div.reviewWrapper {
+    background-color: #f7f7f7;
+    padding: 2rem 0;
+    text-align: center;
+}
+#cards {
+    text-align: center;
+    h3 {
+        margin: 2rem $gutter 0 $gutter;
+        text-align: center;
+        color: #000;
+        font-weight: $boldWeight;
+    }
+    p {
+        color: black;
+    }
+    img {
+        width: 20px;
+        padding: 10px 0 10px 0
+    }
+}
+h2 {
+    color:white;
+    padding-left: 10px;
 }
 /* --------------------------- CSS for rows --------------------------- */
 .row {
@@ -233,7 +275,7 @@ main img {
     background-color: #181818;
 }
 .fill2 {
-    background-color: #97BAB1;
+    background-color: #404040;
     padding: 0;
 }
 .round, .fill2 {
@@ -243,9 +285,36 @@ main img {
 .shadow {
     box-shadow: 0 0 10px #333;
 }
+/* --------------------------- Maintence Icons --------------------------- */
+.pulseIcon {
+    margin: 0 auto;
+    text-align: center;
+}
+.warningIcon {
+    margin: 0 auto;
+    text-align: center;
+}
+.btnMaintence {
+    background-color: #fcd494;   
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    color: #000;
+    border-radius: 8px; 
+    border-color: #fcd494;
+    cursor: pointer;
+}
+.btnMaintence:hover {
+    transform: translateY(5px);
+    transition: transform .20s ease-in-out;
+}
+
+
+
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
-    background-color: $secondaryColor;
+    background-color: #0d0d0d;
 
 } // end footer wrapper
 footer {
