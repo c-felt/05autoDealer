@@ -218,9 +218,15 @@ main img {
 }
 /* --------------------------- Review Wrapper --------------------------- */
 div.reviewWrapper {
-    background-color: #f7f7f7;
+    // background-color: #f7f7f7;
+    background-color: #f1f1f1;
+    border-radius: 10px;
     padding: 2rem 0;
     text-align: center;
+    h2 {
+        color: black;
+        font-weight: $boldWeight;
+    }
 }
 #cards {
     text-align: center;
