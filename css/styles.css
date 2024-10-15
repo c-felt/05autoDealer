@@ -649,6 +649,10 @@ h2 {
 }
 
 /* --------------------------- Maintence Icons --------------------------- */
+.servicesTitle {
+  text-align: center;
+}
+
 .pulseIcon {
   margin: 0 auto;
   text-align: center;
