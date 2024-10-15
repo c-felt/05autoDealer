@@ -26,7 +26,7 @@ const myRatings = document.createElement('div')
 
 for (let step = 0; step<reviews[x].stars; step++) {
     const starIndicator = document.createElement('img')
-    starIndicator.src = "../images/starGraphic.svg"
+    starIndicator.src = "./images/starGraphic.svg"
     myRatings.appendChild(starIndicator)
 }
     //build the figure with child elements
