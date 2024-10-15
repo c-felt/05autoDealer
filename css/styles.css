@@ -659,6 +659,20 @@ h2 {
   text-align: center;
 }
 
+.key-image {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+  height: auto;
+}
+
+.wrench-image {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+  height: auto;
+}
+
 .btnMaintence {
   background-color: #fcd494;
   display: block;
@@ -760,6 +774,18 @@ footer a {
   .medium-12 {
     flex-basis: 100%;
   }
+  .key-image {
+    margin: 0 auto;
+    text-align: center;
+    width: 20%;
+    height: auto;
+  }
+  .wrench-image {
+    margin: 0 auto;
+    text-align: center;
+    width: 20%;
+    height: auto;
+  }
 }
 @media only screen and (min-width: 64rem) {
   header, nav, main {
@@ -802,5 +828,17 @@ footer a {
   }
   .large-12 {
     flex-basis: 100%;
+  }
+  .key-image {
+    margin: 0 auto;
+    text-align: center;
+    width: 20%;
+    height: auto;
+  }
+  .wrench-image {
+    margin: 0 auto;
+    text-align: center;
+    width: 20%;
+    height: auto;
   }
 }/*# sourceMappingURL=styles.css.map */

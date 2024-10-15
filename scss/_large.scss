@@ -11,3 +11,16 @@ header, nav, main {
     $width: calc($i/ 12) * 100%;
     .large-#{$i} {flex-basis: $width;}
 }
+
+.key-image {
+    margin: 0 auto;
+    text-align: center;
+    width: 20%;
+    height: auto;
+}
+.wrench-image {
+    margin: 0 auto;
+    text-align: center;
+    width: 20%;
+    height: auto;
+}
