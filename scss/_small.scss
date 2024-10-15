@@ -341,10 +341,13 @@ h2 {
 } // end footer wrapper
 footer {
     font-size: .85rem;
-    font-weight: $normalWeight;
+    font-weight: $lightWeight;
     padding: 1rem $gutter;
     color: $whiteColor;
     text-align: center;
     line-height: $leading;
     a {color: $whiteColor;}
+    span {
+        font-size: 1rem;
+    }
 }// end footer
