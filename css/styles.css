@@ -353,12 +353,13 @@ header {
   width: 44px;
   height: 44px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   right: 10px;
   color: #fff;
 }
 
 #primaryNav ul {
+  z-index: 100;
   position: absolute;
   right: 10px;
   width: 200px;

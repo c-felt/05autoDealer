@@ -47,12 +47,12 @@ header {
     width: 44px;
     height: 44px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     right: 10px;
-    // cursor: pointer;
     color: $whiteColor;
 }
 #primaryNav ul {
+    z-index: 100;
     position: absolute;
     right: $gutter;
     width: 200px; //when this number was lower it shoved the entire navigation thing to the side
@@ -107,7 +107,6 @@ header {
     .one {
         position: absolute;
         top: calc(50% - 35px);
-        // text-shadow: 15px 15px 40px rgba(0, 0, 0, 0.9);
         background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.8) 50%, rgba(255,255,255,0) 100%,);
         margin: 0;
         color: black;
@@ -121,7 +120,6 @@ header {
     .two {
         position: absolute;
         top: calc(70% - 35px);
-        // text-shadow: 8px 8px 20px rgba(0, 0, 0, 0.9);
         background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.8) 50%, rgba(255,255,255,0) 100%,);
         margin: 0;
         color: black;
@@ -132,11 +130,9 @@ header {
         font-weight: $boldWeight;
         font-size: 1.5rem;
     } 
-    //delete this comment
     .three {
         position: absolute;
         top: calc(90% - 35px);
-        // text-shadow: 8px 8px 20px rgba(0, 0, 0, 0.9);
         background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.8) 50%, rgba(255,255,255,0) 100%,);
         margin: 0;
         color: black;
@@ -148,7 +144,6 @@ header {
         font-size: 1.5rem;
     } 
 }
-
 /* --------------------------- MAIN --------------------------- */
 main {
     h1 {
@@ -218,7 +213,6 @@ main img {
 }
 /* --------------------------- Review Wrapper --------------------------- */
 div.reviewWrapper {
-    // background-color: #f7f7f7;
     background-color: #f1f1f1;
     border-radius: 10px;
     padding: 2rem 0;
@@ -255,7 +249,6 @@ h2 {
     justify-content: center;
     margin: 1rem 0;
     padding: 0 8px;
-    // border: greenyellow solid 3px;
 }
 /* --------------------------- CSS for columns --------------------------- */
 .column {
@@ -331,9 +324,6 @@ h2 {
     transform: translateY(5px);
     transition: transform .20s ease-in-out;
 }
-
-
-
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
     background-color: #0d0d0d;
