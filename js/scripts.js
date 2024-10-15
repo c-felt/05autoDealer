@@ -29,8 +29,6 @@ for (let step = 0; step<reviews[x].stars; step++) {
     starIndicator.src = "../images/starGraphic.svg"
     myRatings.appendChild(starIndicator)
 }
-
-
     //build the figure with child elements
     mySection.appendChild(myName);
     mySection.appendChild(myRatings)
@@ -38,7 +36,6 @@ for (let step = 0; step<reviews[x].stars; step++) {
 
     //Add a new card to the page
     myTarget.appendChild(mySection);
-
 }
 
 
