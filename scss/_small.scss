@@ -297,6 +297,15 @@ h2 {
     margin: 0 auto;
     text-align: center;
 }
+//new
+.warningIcon:hover {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}//end of new
 .key-image {
     margin: 0 auto;
     text-align: center;
@@ -308,11 +317,53 @@ h2 {
     text-align: center;
     width: 50%;
     height: auto;
+    position: relative; //new for animation
 }
+/* --------------------------- ANIMATIONS --------------------------- */
+.pulseIcon:hover {animation: myScale 3s 1;}
+.wrench-image:hover {animation: myBounce 4s 1;}
+.key-image:hover {animation: mySpin 4s 1;}
+
+@keyframes myBounce {
+    0% {bottom:0px; animation-timing-function: ease-out;}
+    25% {bottom:15px; animation-timing-function: ease-in;}
+    50% {bottom:0px; animation-timing-function: ease-out;}
+    75% {bottom:7px; animation-timing-function: ease-in;}
+    100% {bottom:0px; animation-timing-function: ease-out;}
+}
+
+@keyframes mySpin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes myScale {
+    0% { transform: scale(1); }
+  100% { transform: scale(1.5); }
+}
+
+@keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:50px; top:0px;}
+    50%  { left:50px; top:50px;}
+    75%  { left:0px; top:50px;}
+    100% {left:0px; top:0px;}
+  }
+
+//weird try below - almost worked:
+//   @keyframes example {
+//     0%   { left:0px; top:0px;}
+//     12%  { left:50px; top:0px;}
+//     25%  { left:50px; top:50px;}
+//     50%  { right:50px; top:50px;}
+//     75%  {right: 50px; top:0px;}
+//     100% {right:50px; top:0px;}
+//   }
+
 .btnMaintence {
     background-color: #fcd494;   
     display: block;
-    margin: 20px auto;
+    margin: 50px auto;
     margin-bottom: 30px;
     padding: 10px 20px;
     color: #000;
