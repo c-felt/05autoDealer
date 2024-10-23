@@ -674,7 +674,7 @@ h2 {
   height: 100px;
   position: relative;
   animation-name: example;
-  animation-duration: 8s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 
@@ -699,11 +699,11 @@ h2 {
 }
 
 .wrench-image:hover {
-  animation: myBounce 4s 1;
+  animation: myBounce 3s 1;
 }
 
 .key-image:hover {
-  animation: mySpin 4s 1;
+  animation: mySpin 3s 1;
 }
 
 @keyframes myBounce {

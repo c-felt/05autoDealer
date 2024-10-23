@@ -303,7 +303,7 @@ h2 {
     height: 100px;
     position: relative;
     animation-name: example;
-    animation-duration: 8s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
 }//end of new
 .key-image {
@@ -321,8 +321,8 @@ h2 {
 }
 /* --------------------------- ANIMATIONS --------------------------- */
 .pulseIcon:hover {animation: myScale 3s 1;}
-.wrench-image:hover {animation: myBounce 4s 1;}
-.key-image:hover {animation: mySpin 4s 1;}
+.wrench-image:hover {animation: myBounce 3s 1;}
+.key-image:hover {animation: mySpin 3s 1;}
 
 @keyframes myBounce {
     0% {bottom:0px; animation-timing-function: ease-out;}
